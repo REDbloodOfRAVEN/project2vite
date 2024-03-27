@@ -471,7 +471,9 @@ transition: .5s;
   header{
     margin-top: 5rem;
   }
-
+  .header__image>image {
+    object-fit: contain;
+  }
   .sale__grid{
     grid-template-columns: repeat(2, 1fr);
   }
